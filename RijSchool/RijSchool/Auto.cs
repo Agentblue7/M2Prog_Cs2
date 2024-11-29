@@ -6,7 +6,7 @@
                 internal bool automaat;
                 internal string merk;
                 internal string kenteken;
-                internal int kilometer;
+                internal int kilometerStand;
             }
         }
       
