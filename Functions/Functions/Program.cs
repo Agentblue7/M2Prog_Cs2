@@ -20,7 +20,7 @@ namespace Functions
         internal string GetRandomVraag()
         {
             //gebruik random 
-            int random = ...;
+            int random = 1;
             return...;
         }
         static void Main(string[] args)
