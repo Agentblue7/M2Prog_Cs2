@@ -8,6 +8,7 @@ namespace Constructors
         private void Run()
         {
             QuizVraag quizVraag = new QuizVraag("Hoe lang is een chinees", "ja");
+            Quiz quiz = new Quiz(10);
         }
         static void Main(string[] args)
         {
