@@ -9,6 +9,7 @@ namespace Constructors
         {
             QuizVraag quizVraag = new QuizVraag("Hoe lang is een chinees", "ja");
             Quiz quiz = new Quiz(10);
+            quiz.VoegVraagToeOpIndex(0, quizVraag);
         }
         static void Main(string[] args)
         {
