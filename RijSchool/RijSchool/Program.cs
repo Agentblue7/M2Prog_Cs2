@@ -24,6 +24,35 @@
                 kilometerStand = 65739,
                 merk = "Volvo"
             };
+
+            Rijleraar rijleraar = new Rijleraar()
+            {
+                leeftijd = 30,
+                naam = "John",
+                zzp = false
+            };
+
+            LesUur lesUur = new LesUur()
+            {
+                auto = auto1,
+                rijLeraar = rijleraar,
+
+                tijd = 1130
+            };
+
+            Student student = new Student()
+            {
+                LesPakket = LesPakket,
+                theorietest = TheorieTest,
+                rijtest = RijTest,
+                lesUur = lesUur,
+            };
+
+            Dag dag = new Dag()
+            {
+                datum = DateTime,
+                lesuren = lesUur
+            }
         }
     }
 }
