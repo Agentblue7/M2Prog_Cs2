@@ -19,5 +19,13 @@
         { 
             vragen = new QuizVraag[aantalVragen];
         }
+
+        internal void StelVraag(int index)
+        {
+            QuizVraag vraag = vragen[index];
+            QuizVraagAntwoorden quizVraagAntwoord = new QuizVraagAntwoorden(vraag);
+        }
+
+        
     }
 }

@@ -7,7 +7,7 @@
 
         internal QuizVraagAntwoorden(QuizVraag vraag) 
         {
-            vraag = vraag;
+            this.vraag = vraag;
             goed = false;
         }
         }
