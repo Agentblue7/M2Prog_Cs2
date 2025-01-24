@@ -19,6 +19,15 @@
                 characterslist.Add(characters[i]);     
                 Console.WriteLine(characterslist[i]);
             }
+
+            List<double> reviews = new List<double>() { 9.99, 4.68, 348.97, 12.2 };
+
+            for (int i = 0; i < reviews.Count; i++)
+            {
+                Console.WriteLine(reviews[i]);
+                reviews.Remove(348.97);
+              
+            }
         }
     }
 }
