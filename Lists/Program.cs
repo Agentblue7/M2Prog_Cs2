@@ -16,7 +16,7 @@
             characterslist.Add("Artyom");
             for (int i = 0; i < characters.Length; i++)
             {
-                characterslist.Add(characters[i]);     
+                characterslist.Add(characters[i]);
                 Console.WriteLine(characterslist[i]);
             }
 
@@ -26,8 +26,46 @@
             {
                 Console.WriteLine(reviews[i]);
                 reviews.Remove(348.97);
-              
+
+            }
+
+            List<Pickup> pickups = new List<Pickup>() {};
+            for (int i = 0; i < 10; i++)
+            {
+                Pickup pickup = new Pickup()
+                {
+                    x = i,
+                    y = 0,
+                };
+                pickups.Add(pickup);
+            }
+
+            //foreach (Pickup pickup in pickups)
+            //{
+            //if (pickup.x == 4)
+            //{
+            //    pickups.Remove(pickup);
+            //}
+            //}
+
+            for (int i = pickups.Count - 1; i >= 0; i--)
+            {
+                Console.WriteLine(pickups[i]);
+                if (pickups[i].x == 4)
+                {
+                    pickups.RemoveAt(i);
+                }
+
             }
         }
+
+                class Pickup
+            {
+                internal int x, y;
+            }
+
+            
+
+        }
     }
-}
+
