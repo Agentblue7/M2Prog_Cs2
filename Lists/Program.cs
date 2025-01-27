@@ -63,7 +63,11 @@
             {
                 internal int x, y;
             }
-
+                class mob
+                {
+                    internal bool isDead;
+                    internal int hp = 10;
+                }
             
 
         }
